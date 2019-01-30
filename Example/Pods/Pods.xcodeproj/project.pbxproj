@@ -158,7 +158,8 @@
 		571D4ABAD805ED4C1E85A4280C597A27 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 199A86BA1CC558120430080AE15096A3 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A1B8F1020EA894D642580437F7AEB52 /* RACDynamicSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 340810F3EE2AA848AA4B3776C93B3493 /* RACDynamicSequence.m */; };
 		5A1C42062201793C0095AE66 /* FFAPIsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE2079BF31097993EB57727AC52ABBE /* FFAPIsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A1C4207220179E20095AE66 /* FFSpecialKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D929796B1F3E386EDF43FCC0941911 /* FFSpecialKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1C420922017CE40095AE66 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A1C420822017C9F0095AE66 /* Header.h */; };
+		5A1C420A22017CE70095AE66 /* FFSpecialKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D929796B1F3E386EDF43FCC0941911 /* FFSpecialKit.h */; };
 		5A3F6A51AF88374C416CC9299FAE6887 /* RACEmptySignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E5AAD6897B8C07BDFE4174AD60960 /* RACEmptySignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B31B264603B9C2B4CDA018B2880C005 /* FFConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 449EED171BD9F246304A4F999C33826F /* FFConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B597BCB6E98C54EACEA85B45935A790 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 710079D78057FA5B404ED76D7424DF77 /* ReplaceMe.m */; };
@@ -368,7 +369,6 @@
 		CBE9DCDD06E152320FC07EA53E44223B /* YYCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63284C8D5F3349B7080FDD6021D7A8C /* YYCache.framework */; };
 		CC36AB24711294A08A7754BBCDA3664E /* NSObject+RACPropertySubscribing.m in Sources */ = {isa = PBXBuildFile; fileRef = CE05366A4D3075C62A5C9D0D53816AD9 /* NSObject+RACPropertySubscribing.m */; };
 		CC9EC78634E94EFBDF1A322D911AF97E /* RACQueueScheduler+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C3A684D0224F5F840B79A40C0E7180 /* RACQueueScheduler+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD3EE2D6CEA2B896ADBD4427F5A60FB1 /* FFSpecialKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D929796B1F3E386EDF43FCC0941911 /* FFSpecialKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDA0FCB4C1058BF4E0C58DB3E1357BDF /* RACChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = A26F59EF4798E7407056AA549CCEFDAC /* RACChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE2AA4787CF78AF13FDED3A7DBD94AC5 /* NSObject+RACLifting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D57090BE8BBCA854238DFAB39CBCF43 /* NSObject+RACLifting.m */; };
 		CE3780358A5219CCC5E3B30D1EC1CA77 /* RACDelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 15A35763E566EE72780F12FEA21089A7 /* RACDelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -892,6 +892,7 @@
 		59592C9CDF6FF94ACE3711F6A98C7F97 /* FFSpecialKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FFSpecialKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		59643F0DEB3052D952F40893414367E4 /* RACStringSequence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RACStringSequence.h; path = ReactiveCocoa/RACStringSequence.h; sourceTree = "<group>"; };
 		5996D5370F573038DDFA623ECE55F7BA /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		5A1C420822017C9F0095AE66 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		5AFBB45968A91502AE26D1C860BA086C /* Pods-FFSpecialKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FFSpecialKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5B4629E60FBA8BEA6147DF5D8676759E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
 		5B62275FDF08D6CEA40DAC69CD090E24 /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYWebImage/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
@@ -1809,6 +1810,7 @@
 			isa = PBXGroup;
 			children = (
 				B2D929796B1F3E386EDF43FCC0941911 /* FFSpecialKit.h */,
+				5A1C420822017C9F0095AE66 /* Header.h */,
 				BB2ACAF9190144CDD96ACC03DB3F49D0 /* Detail */,
 				BC704A9A610FDBBFB6BBB206FEC833CD /* Mainpage */,
 				1E85C78AD28F96FE18E5D5F6AD3311F8 /* Pod */,
@@ -2625,9 +2627,10 @@
 				E6056AB94F457B25AEA11D84C2FAEC1B /* FFSpecialDetailController.h in Headers */,
 				73F7ADA4C7AA2CBEFD66EC22FEEF20DB /* FFSpecialDetailView.h in Headers */,
 				B21FFFAF9CC9CC0489B04DD3CFCA5763 /* FFSpecialKit-umbrella.h in Headers */,
-				CD3EE2D6CEA2B896ADBD4427F5A60FB1 /* FFSpecialKit.h in Headers */,
 				6D85C15D00F3DC4FDACAE710370F463A /* FFSpecialListReformer.h in Headers */,
+				5A1C420A22017CE70095AE66 /* FFSpecialKit.h in Headers */,
 				F5D2F911E8270B23B6E3CAB30BA7C767 /* SpecialAPIRequest.h in Headers */,
+				5A1C420922017CE40095AE66 /* Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2639,7 +2642,6 @@
 				F51232639B43A2F87022701A75EDF8B6 /* APIRequestProtocol.h in Headers */,
 				370592CA6791D0388E3285740714B68D /* APIResponseProtocol.h in Headers */,
 				EB0C082FEABA489FA05FF01633EAD722 /* FFAPIsKit-umbrella.h in Headers */,
-				5A1C4207220179E20095AE66 /* FFSpecialKit.h in Headers */,
 				9E659D748F7E16BAFE630E2571E368F3 /* FFReformProtocol.h in Headers */,
 				E525B45603861810DF2E6C97020749C6 /* NetworkHelper.h in Headers */,
 			);
