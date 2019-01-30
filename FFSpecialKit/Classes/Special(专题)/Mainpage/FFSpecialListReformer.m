@@ -7,6 +7,7 @@
 //
 #import <UIKit/UIKit.h>
 #import "FFSpecialListReformer.h"
+#import "FFSpecialListReformerKeys.h"
 
 @implementation FFSpecialListReformer
 

@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "FFReformProtocol.h"
-#import "FFSpecialListReformerKeys.h"
 
 @interface FFSpecialListReformer : NSDictionary <FFReformProtocol>
 
