@@ -21,7 +21,7 @@ PODS:
   - FFConfigsKit (0.1.0)
   - FFMainView (0.1.3)
   - FFReformerKeysKit (0.1.0)
-  - FFSpecialKit (0.1.0):
+  - FFSpecialKit (0.1.6):
     - FFAPIsKit
     - FFCategoryKit
     - FFConfigsKit
@@ -86,7 +86,7 @@ SPEC CHECKSUMS:
   FFConfigsKit: 64183f2124427ab04b7c71da6580fcf55f17233a
   FFMainView: d0c2bcf5300cbd3b45119e73d65fdb3dc9ee2802
   FFReformerKeysKit: 96977ac2a7952d4113abb422b03b104515cf597b
-  FFSpecialKit: 84fc3fb46b27e74ad2ef7e7581eca9190ef96c7f
+  FFSpecialKit: b7601e4ff35b74a2728bda129296af598dc912ff
   FFToolsKit: 18fa733735ce98c78aa1701e3a0f583d4e1c98f4
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
