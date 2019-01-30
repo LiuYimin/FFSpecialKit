@@ -158,6 +158,7 @@
 		571D4ABAD805ED4C1E85A4280C597A27 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 199A86BA1CC558120430080AE15096A3 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A1B8F1020EA894D642580437F7AEB52 /* RACDynamicSequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 340810F3EE2AA848AA4B3776C93B3493 /* RACDynamicSequence.m */; };
 		5A1C42062201793C0095AE66 /* FFAPIsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE2079BF31097993EB57727AC52ABBE /* FFAPIsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A1C4207220179E20095AE66 /* FFSpecialKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D929796B1F3E386EDF43FCC0941911 /* FFSpecialKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A3F6A51AF88374C416CC9299FAE6887 /* RACEmptySignal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E5AAD6897B8C07BDFE4174AD60960 /* RACEmptySignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B31B264603B9C2B4CDA018B2880C005 /* FFConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 449EED171BD9F246304A4F999C33826F /* FFConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B597BCB6E98C54EACEA85B45935A790 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 710079D78057FA5B404ED76D7424DF77 /* ReplaceMe.m */; };
@@ -2638,6 +2639,7 @@
 				F51232639B43A2F87022701A75EDF8B6 /* APIRequestProtocol.h in Headers */,
 				370592CA6791D0388E3285740714B68D /* APIResponseProtocol.h in Headers */,
 				EB0C082FEABA489FA05FF01633EAD722 /* FFAPIsKit-umbrella.h in Headers */,
+				5A1C4207220179E20095AE66 /* FFSpecialKit.h in Headers */,
 				9E659D748F7E16BAFE630E2571E368F3 /* FFReformProtocol.h in Headers */,
 				E525B45603861810DF2E6C97020749C6 /* NetworkHelper.h in Headers */,
 			);

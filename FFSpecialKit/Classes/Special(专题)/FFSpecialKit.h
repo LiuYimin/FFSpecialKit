@@ -8,7 +8,6 @@
 #ifndef FFSpecialKit_h
 #define FFSpecialKit_h
 
-#import <FFAPIsKit/FFAPIsKit-umbrella.h>
 #import <FFCategoryKit/FFCategoryKit-umbrella.h>
 #import <FFConfigsKit/FFConfigsKit-umbrella.h>
 #import <FFToolsKit/FFToolsKit-umbrella.h>
@@ -16,5 +15,6 @@
 #import <Masonry/Masonry.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 #import <YYWebImage/YYWebImage.h>
+#import <FFAPIsKit/FFAPIsKit-umbrella.h>
 
 #endif /* FFSpecialKit_h */
