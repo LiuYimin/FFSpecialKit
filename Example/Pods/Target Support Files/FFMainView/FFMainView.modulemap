@@ -1,0 +1,6 @@
+framework module FFMainView {
+  umbrella header "FFMainView-umbrella.h"
+
+  export *
+  module * { export * }
+}
