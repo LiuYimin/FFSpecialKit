@@ -22,7 +22,8 @@
     self.title = @"专题详情";
     self.view.backgroundColor = [UIColor greenColor];
     
-    self.detailView = [[NSBundle mainBundle] loadNibNamed:@"FFSecialDetailView" owner:self options:nil].lastObject;
+    NSBundle *xibbBundle = [NSBundle bundleForClass:[self class]];
+    self.detailView = [xibbBundle loadNibNamed:@"FFSecialDetailView" owner:self options:nil].lastObject;
     [self.view addSubview:self.detailView];
 }
 
