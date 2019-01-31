@@ -150,11 +150,11 @@
 //        NSDictionary *author = [reformer reformData:data[kAuthorReformer]];
         [self.pictureView yy_setImageWithURL:data[kSpecialPropertyListKeyPictureURL] placeholder:[UIImage imageNamed:@"placehodler"]];
 //        [self.headImgView yy_setImageWithURL:author[kAuthorPropertyListHeaderURL] placeholder:[UIImage imageNamed:@"pc_default_avatar"]];
-//        self.identityLabel.text = data[kSpecialPropertyListKeyAuthorIdentity];
-//        self.categoryLabel.text = data[kSpecialPropertyListKeyCategoryName];
+        self.identityLabel.text = data[kSpecialPropertyListKeyAuthorIdentity];
+        self.categoryLabel.text = data[kSpecialPropertyListKeyCategoryName];
 //        self.authorLabel.text = author[kAuthorPropertyListKeyName];
-//        self.titleLabel.text = data[kSpecialPropertyListKeyTitle];
-//        self.descLabel.text = data[kSpecialPropertyListKeyDesc];
+        self.titleLabel.text = data[kSpecialPropertyListKeyTitle];
+        self.descLabel.text = data[kSpecialPropertyListKeyDesc];
 //        if (author[kAuthorPropertyListKeyAuthIcon]) {
 //            self.authImgView.image = author[kAuthorPropertyListKeyAuthIcon];
 //        }
