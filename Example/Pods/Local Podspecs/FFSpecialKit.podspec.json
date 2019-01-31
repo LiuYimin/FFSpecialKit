@@ -1,6 +1,6 @@
 {
   "name": "FFSpecialKit",
-  "version": "0.1.6",
+  "version": "0.1.11",
   "summary": "A short description of FFSpecialKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/LiuYimin/FFSpecialKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/LiuYimin/FFSpecialKit.git",
-    "tag": "0.1.6"
+    "tag": "0.1.11"
   },
   "platforms": {
     "ios": "8.0"
@@ -46,6 +46,9 @@
 
     ],
     "FFMainView": [
+
+    ],
+    "FFAuthorKit_Category": [
 
     ]
   }

@@ -14,15 +14,20 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - CTMediator (25)
   - FFAPIsKit (0.1.2):
     - AFNetworking
     - FFToolsKit
+  - FFAuthorKit_Category (0.1.1):
+    - CTMediator
+    - FFAPIsKit
   - FFCategoryKit (0.1.1)
   - FFConfigsKit (0.1.0)
   - FFMainView (0.1.3)
   - FFReformerKeysKit (0.1.0)
-  - FFSpecialKit (0.1.6):
+  - FFSpecialKit (0.1.11):
     - FFAPIsKit
+    - FFAuthorKit_Category
     - FFCategoryKit
     - FFConfigsKit
     - FFMainView
@@ -60,6 +65,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - CTMediator
     - FMDB
     - Masonry
     - MBProgressHUD
@@ -69,6 +75,7 @@ SPEC REPOS:
     - YYWebImage
   https://github.com/LiuYimin/FFSpecs.git:
     - FFAPIsKit
+    - FFAuthorKit_Category
     - FFCategoryKit
     - FFConfigsKit
     - FFMainView
@@ -81,12 +88,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   FFAPIsKit: 44930ce29574491d31adc4cf8fe2633293ad9c61
+  FFAuthorKit_Category: 9a28256865df1fed6b721c164b95d9f06adc5388
   FFCategoryKit: dca03942e4942304e7c60909cfbc1e602d856058
   FFConfigsKit: 64183f2124427ab04b7c71da6580fcf55f17233a
   FFMainView: d0c2bcf5300cbd3b45119e73d65fdb3dc9ee2802
   FFReformerKeysKit: 96977ac2a7952d4113abb422b03b104515cf597b
-  FFSpecialKit: b7601e4ff35b74a2728bda129296af598dc912ff
+  FFSpecialKit: ac997714a40ead831a72d5a7e46085720b04ba89
   FFToolsKit: 18fa733735ce98c78aa1701e3a0f583d4e1c98f4
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

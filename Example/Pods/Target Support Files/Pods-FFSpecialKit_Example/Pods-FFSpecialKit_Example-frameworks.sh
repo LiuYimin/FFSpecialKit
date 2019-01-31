@@ -144,7 +144,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFAPIsKit/FFAPIsKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FFAuthorKit_Category/FFAuthorKit_Category.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFCategoryKit/FFCategoryKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFConfigsKit/FFConfigsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFMainView/FFMainView.framework"
@@ -161,7 +163,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFAPIsKit/FFAPIsKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FFAuthorKit_Category/FFAuthorKit_Category.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFCategoryKit/FFCategoryKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFConfigsKit/FFConfigsKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FFMainView/FFMainView.framework"
